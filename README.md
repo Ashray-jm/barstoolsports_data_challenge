@@ -7,6 +7,8 @@ This is an intentionally semi‑star schema built for rapid, ad‑hoc insight in
 
 I have added Notes and comments in the main `BarstoolSports_Data_Challenge_Notebook.ipynb` file 
 
+### ooling:(Databricks Community), Delta Lake, Python, Pyspark, Pandas, SQL Run time on DBR 14.3 small cluster: < 5 minutes end‑to‑end
+
 ## 1 . Project Contents
 
 | Path / file | Purpose |
@@ -22,7 +24,7 @@ I have added Notes and comments in the main `BarstoolSports_Data_Challenge_Noteb
 | Issue | Treatment |
 |-------|-----------|
 | 4 fully‑null rows | dropped |
-| `franchise` has 459 nulls | replaced with `'UNKNOWN'` |
+| `franchise` has 459 nulls in content_catlog | replaced with `'UNKNOWN'` |
 | `franchise` 83, 91 missing in content catalog | left as‑is |
 | Some content lacks talent **and** franchise info | tolerated — queries must LEFT JOIN |
 | Mismatched `content_id` between logs & catalog (e.g. live events) | excluded from dim joins |
