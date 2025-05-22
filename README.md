@@ -4,7 +4,7 @@ Note for reviewers
 
 This is an intentionally semi‑star schema built for rapid, ad‑hoc insight in Databricks. It keeps the raw flexibility of arrays and embedded GEO and LOG fields while still giving analysis a single wide fact table (consumption_events) they can query right away.
 
-Please see 
+Please see `data_flow_diagram.png`
 
 we needed a more formal, performance‑tuned warehouse, we could evolve this model by:
 
