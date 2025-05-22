@@ -40,5 +40,5 @@ I have added Notes and comments in the main `BarstoolSports_Data_Challenge_Noteb
 4. **Storage tuning**:  
    * Partition fact by **`event_date`** only.  
    * Z‑ORDER on high‑cardinality columns (e.g. `content_id`) for faster selective reads.
-
+5. Implementing testing ( now manually tested ).
 ---
