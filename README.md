@@ -17,16 +17,7 @@ I have added Notes and comments in the main `BarstoolSports_Data_Challenge_Noteb
 
 ---
 
-## 2 . Files & Artifacts
-
-| File | Description |
-|------|-------------|
-| **`data_flow_diagram.png`** | Data‑flow diagram |
-| **`Barstoolsports_Data_Challenge_Notebook.ipynb`** | Main ETL notebook — extracts, transforms, and writes the final Delta table **`consumption_events_logs`** |
-| **`Analysis.html`** | All analyses (tables + dashboards). **Download, open in a browser, and click the “Visualization” button in each result** to view dashboards |
-
----
-## 3 . Data Issues & Assumptions
+## 2 . Data Issues & Assumptions
 
 | Issue | Treatment |
 |-------|-----------|
@@ -39,7 +30,7 @@ I have added Notes and comments in the main `BarstoolSports_Data_Challenge_Noteb
 
 ---
 
-## 4 .  Better approach is to have complete star schema model
+## 3 .  Better approach is to have complete star schema model
 
 1. **`geo_dim`** (country, region, lat/long) + `geo_sk` FK to shrink wide fact.  
 2. **Bridge tables** (`talent_content_bridge`, `tag_content_bridge`) for many‑to‑many resolution.  
