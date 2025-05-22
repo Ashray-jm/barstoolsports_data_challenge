@@ -7,7 +7,7 @@ This is an intentionally semi‑star schema built for rapid, ad‑hoc insight in
 
 I have added Notes and comments in the main `BarstoolSports_Data_Challenge_Notebook.ipynb` file 
 
-### ooling:(Databricks Community), Delta Lake, Python, Pyspark, Pandas, SQL Run time on DBR 14.3 small cluster: < 5 minutes end‑to‑end
+### Tooling:(Databricks Community), Delta Lake, Python, Pyspark, Pandas, SQL Run time on DBR 14.3 small cluster: < 5 minutes end‑to‑end
 
 ## 1 . Project Contents
 
