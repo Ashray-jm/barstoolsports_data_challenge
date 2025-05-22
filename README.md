@@ -29,7 +29,7 @@ This is an intentionally semi‑star schema built for rapid, ad‑hoc insight in
 | Issue | Treatment |
 |-------|-----------|
 | 4 fully‑null rows | dropped |
-| `FRANCHISE` has 459 nulls | replaced with `'UNKNOWN'` |
+| `franchise` has 459 nulls | replaced with `'UNKNOWN'` |
 | `franchise` 83, 91 missing in content catalog | left as‑is |
 | Some content lacks talent **and** franchise info | tolerated — queries must LEFT JOIN |
 | Mismatched `content_id` between logs & catalog (e.g. live events) | excluded from dim joins |
