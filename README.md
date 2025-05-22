@@ -5,6 +5,8 @@ Note for reviewers
 This is an intentionally semi‑star schema built for rapid, ad‑hoc insight in Databricks. It keeps the raw flexibility of arrays and embedded GEO and LOG fields while still giving analysis a single wide fact table (consumption_events_logs) they can query right away.
 ---
 
+I have added Notes and comments in the main `BarstoolSports_Data_Challenge_Notebook.ipynb` file 
+
 ## 1 . Project Contents
 
 | Path / file | Purpose |
